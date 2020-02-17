@@ -1,0 +1,23 @@
+{
+  "name": "URL2QR",
+  "description": "URL2QR",
+  "version": "0.1.0",
+  "author": "matt ma",
+  "homepage_url": "https://github.com/m4yue",
+  "manifest_version": 2,
+  "icons": {
+    "256": "images/ic256.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "browser_action": {
+    "default_title": "URL2QR",
+    "default_icon": {
+      "256": "images/ic256.png"
+    },
+    "default_popup": "options.html"
+  },
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ]
+}
